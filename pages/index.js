@@ -17,44 +17,10 @@ export default function Home() {
       <Footer />
 
       <style jsx>{`
-        .container {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          min-height: 100vh;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+    
       `}</style>
 
-      <style jsx global>{`
-        * {
-          box-sizing: border-box;
-        }
-
-        body {
-          margin: 0;
-          min-height: 100vh;
-        }
-
-        a {
-          text-decoration: none;
-        }
-
-        img {
-          display: block;
-          width: 100%;
-          height: auto;
-        }
-      `}</style>
+      {/* <style jsx global>{``}</style> */}
     </div>
   )
 }

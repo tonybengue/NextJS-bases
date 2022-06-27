@@ -18,7 +18,6 @@ export const Footer = () => {
           align-items: center;
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
           margin-top: auto;
           box-shadow: 0 0 5px rgba(0,0,0,1);
         }
