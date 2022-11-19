@@ -1,7 +1,7 @@
 import Head from 'next/head'
+import Link from "next/link"
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import Link from "next/link"
 import { useState, useEffect } from 'react'
 // import useSWR from 'swr'
 
@@ -80,7 +80,7 @@ function Profile2() {
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -89,13 +89,11 @@ export default function Home() {
       <Header />
       <main>
         <h1>Hi</h1>
+        {<Profile1 />}
       </main>
       <Footer />
 
-      <style jsx>{`
-    
-      `}</style>
-
+      {/* <style jsx>{``}</style> */}
       {/* <style jsx global>{``}</style> */}
     </div>
   )
